@@ -1,0 +1,23 @@
+@import "variables";
+@import "header.scss";
+@import "card.scss";
+@import "info.scss";
+@import "cleaning";
+@import "select";
+@import "customers";
+@import "footer";
+
+html {
+    box-sizing: border-box;
+    font-family: 'DM Serif Text', serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>sparcle</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="logo header__logo">
+                <div class="logo__icon"><img src="icons/icon-header.png" alt="icon"></div>
+                <div class="logo__name">sparcle.</div>
+            </div>
+            <div class="menu header__menu">
+                <ul class="menu__list">
+                    <li>Our services</li>
+                    <li>Why hire us</li>
+                    <li>Booking</li>
+                    <li>Testimonials</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="menu__line">
+                    <img src="icons/line2.png" alt="icon">
+                </div>
+            </div>
+            <div class="btn header__btn">
+                <button class="btn__menu">Request a Quote</button>
+            </div>
+            <div class="header__title">Professional cleaning services</div>
+            <div class="header__subtitle">Enjoy a better house cleaning experience. All of our cleaners are stringently vetted and have their cleaning ability fully tested.</div>
+            <div class="btn-block header__btn--bottom">
+                <button class="btn__menu" >Request a Quote</button>
+                <button class="btn__secondary"><img src="icons/place-icon.png" alt="icon" class="btn__icon"> Location</button>
+            </div>
+            <div class="learn-more header__learn-more">
+                <div class="learn-more__title">Learn More</div>
+                <img src="icons/line.png" alt="line" class="learn-more__line">
+                <img src="icons/circle.png" alt="circle" class="learn-more__circle">
+                <img src="icons/arrow.png" alt="arrow" class="learn-more__arrow">
+            </div>
+            <div class="bottom header__bottom">
+                <div class="bottom__title">scroll to discover more</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="card">
+        <div class="card__container">
+            <div class="service card__house">
+                <img class="service__logo" src="icons/house-icon.png" alt="icon">
+                <h2 class="service__title">House cleaning</h2>
+                <p class="service__info">Sparcle provides a professional house cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</p>
+                <a href="#" class="service__link">Book online now</a>
+            </div>
+            <div class="service card__house card__house--blue">
+                <img class="service__logo" src="icons/commercial.png" alt="icon">
+                <h2 class="service__title">Commercial cleaning</h2>
+                <p class="service__info">Sparcle provides a professional house cleaning service dedicated to making the lives of our clients safer, greener and cleaner.</p>
+                <a href="#" class="service__link">Get a quote</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info__container">
+            <h2 class="info__title">A new way of cleaning</h2>
+            <p class="info__text--left">We clean to such a high level that you’ll never even need to use our unique re-clean guarantee! This gives you peace of mind and saves you time.</p>
+            <p class="info__text--right">We love house cleaning and want to share with you its many benefits. Having our house cleaning services is about having the utmost professional people in your home, people you can trust and count on.
+            </p>
+            <p class="info__text--bottom"> When you choose Sparcle, you know you will be coming home with the peace of mind that only all natural cleaning products were used, making your home safe for your family, your pets and the planet.</p>
+        </div>
+    </section>
+
+    <section class="cleaning">
+        <div class="cleaning__container">
+            <img src="img/image.png" alt="img" class="cleaning__image--main">
+            <img src="img/dots.png" alt="img" class="cleaning__image--center">
+            <img src="img/color.png" alt="img" class="cleaning__image--right">
+            <h2 class="cleaning__title">
+                <span>become part of the team</span>
+                Professional cleaning service
+                of the year
+            </h2>
+            <p class="cleaning__info">
+                At Sparcle our entire philosophy is based on hiring warm people, not warm bodies. We know that you only want the best.
+            </p>
+            <div class="cleaning__point--first"> <span>&#10004;</span>  Satisfaction guaranteed</div>
+            <div class="cleaning__point--second"> <span>&#10004;</span>  Above average incomes</div>
+        </div>
+    </section>
+
+    <section class="select">
+        <div class="select__container">
+            <div class="select__top">
+                <h2 class="select__title">
+                    <span>Select your service</span>
+                    Book online
+                </h2>
+                <p class="select__info">
+                    Choose the type of cleaning that suits you the most.
+                    After that you just have to specify number of rooms and
+                    you are good to go.
+                </p>
+            </div>
+            <div class="select__bottom">
+                <h2>Type of cleaning</h2>
+                <button id="res">Residential</button>
+                <button id="com">Commercial</button>
+                <div>
+                    <h2>Number of bedrooms</h2>
+                    <button id="plusBed">&plus;</button> <div id="bed">4</div> <button id="minusBed">&minus;</button></button>
+                </div>
+                <div>
+                    <h2>Number of bathrooms</h2>
+                    <button id="plusBath">&plus;</button> <div id="bath">3</div> <button id="minusBath">&minus;</button></button>
+                </div>
+            </div>
+            <div class="select__price">
+                <div>Subtotal 130,00 $</div>
+                <div>Residential Cleaning - 5 hours</div>
+                <div>includes: 4 bedrooms, 2 bathrooms</div>
+                <div class="form-group">
+                    <input type="text" class=form-group__input placeholder="Full name" id="name" required>
+                    <label for="name" class="form-group__label">YOUR FULL NAME</label>
+                </div>
+                <div class="form-group">
+                    <input type="phone" class=form-group__input placeholder="Enter your phone number" id="phone" required>
+                    <label for="phone" class="form-group__label">YOUR PHONE NUMBER</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class=form-group__input placeholder="Enter your email adress" id="email" required>
+                    <label for="email" class="form-group__label">YOUR   EMAIL ADRESS</label>
+                </div>
+                
+                <div>Continue Booking <span>&gt;</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers">
+        <div class="customers__container">
+            <div class="customers__title">What our customers say</div>
+            <div class="customers-card customers__item1">
+                <div class="customers-card__logo"><img src="img/photo1.png" alt="img"></div>
+                <div class="customers-card__text">“There is no better feeling than walking into a super clean home, and knowing that someone else took time to do it :)”</div>
+                <div class="customers-card__author">Maria Owen</div>
+            </div>
+            <div class="customers-card customers__item2">
+                    <div class="customers-card__logo"><img src="img/photo2.png" alt="img"></div>
+                    <div class="customers-card__text">“Super fast hard workers! Polite and friendly! Highly recommend the odd jobers if you need a job done fast and done right!”</div>
+                    <div class="customers-card__author"> Julia Ivanovich</div>
+            </div>
+            <div class="customers-card customers__item3">
+                    <div class="customers-card__logo"><img src="img/photo3.png" alt="img"></div>
+                    <div class="customers-card__text">“They absolutely make my life better! So professional and organized. They have a checklist for what is cleaned so that you know that it will be the same deep, thorough cleaning every time. </div>
+                    <div class="customers-card__author">Mika Bazovska</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="sparcle footer__sparcle">
+                <div class="sparcle__title">Sparcle</div>
+                <div class="sparcle__text">Enjoy a better cleaning</div>
+                <div class="sparcle__text">experience with us</div>
+                <div class="sparcle__social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="house footer__house">
+                <a href="#">What's included</a>
+                <a href="#">Speciality Cleaning</a>
+                <a href="#">Deep Cleaning</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="commercial footer__commercial">
+                <a href="#">Green Cleaning</a>
+                <a href="#">Secure Daytime Cleaning</a>
+                <a href="#">Apartment Cleaning</a>
+                <a href="#">Event Cleaning</a>
+            </div>
+            <div class="contact footer__contact">
+                <div class="contact__info">
+                    <div>Borongajska cesta bb,</div>
+                    <div>10000 Zagreb</div>
+                    <div>01 23 95 313</div>
+                    <a>hello@sparcle.co</a>           
+                </div>
+            </div>
+            <div class="footer__bottom">
+                Copyright Sparcle. Team d.o.o., All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

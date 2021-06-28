@@ -1,0 +1,29 @@
+.info {
+    background-color: $color-white;
+    color: gray;
+    &__container {
+        width: 1200px;
+        margin: 5rem auto;  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    &__title {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        color: $color-blue;
+    }
+    &__text--left {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    &__text--right {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    &__text--bottom {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+}

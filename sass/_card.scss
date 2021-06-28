@@ -1,0 +1,41 @@
+.card {
+    background-color: #f6f7fb;
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 1200px;
+        margin: 0 auto;
+        grid-gap: 1.5rem;
+    }
+    &__house {
+        margin: 3rem auto;
+        width: 350px;
+        height: 350px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 0 0.5rem;
+    }
+    &__house--blue {
+        background-color: $color-blue;
+        color: white;
+    }
+    .service {
+            &__logo {
+                margin: 3rem 5rem 0 2rem;
+            }
+            &__title {
+                font-size: 1.5rem;
+                margin: 2rem 0 0 2rem;
+            }
+            &__info {
+                color: grey;
+                margin: 2rem 0 0 2rem;
+            }
+            &__link {
+                display: inline-block;
+                color: orange;
+                margin: 2rem 0 0 2rem;
+                text-decoration: none;
+            }
+    }
+}

@@ -1,0 +1,78 @@
+.customers {
+    color: $color-blue;
+    &__container {
+        width: 1200px;
+        margin: 5rem auto;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1.5rem;
+        justify-items: start;
+    }
+    &__title {
+        font-size: 2rem;
+        color: $color-blue;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin: 5rem 1rem;
+    }
+    &__item1 {
+        width: 350px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        background-color: $color-white;
+        width: 380px;
+        height: 400px;
+        &:hover {
+            box-shadow: 1rem 1rem 1rem rgb(161, 157, 157);
+            transition: all 1s;
+        }
+        & > * {
+            margin: 2rem 2rem;
+        }
+        & >:first-child {
+            margin-top: 4rem;
+        }
+       
+    }
+    &__item2 {
+        width: 350px;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: $color-white;
+        width: 380px;
+        height: 400px;
+        &:hover {
+            box-shadow: 1rem 1rem 1rem rgb(161, 157, 157);
+            transition: all 1s;
+        }
+        & > * {
+            margin: 2rem 2rem;
+        }
+        & >:first-child {
+            margin-top: 4rem;
+        }
+       
+    }
+    &__item3 {
+        width: 350px;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        background-color: $color-white;
+        width: 380px;
+        height: 400px;
+        &:hover {
+            transition: all 1s;
+            box-shadow: 1rem 1rem 1rem rgb(161, 157, 157);
+        }
+        & > * {
+            margin: 2rem 2rem;
+        }
+        & >:first-child {
+            margin-top: 4rem;
+        }
+       
+    }
+}

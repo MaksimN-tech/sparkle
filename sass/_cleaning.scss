@@ -1,0 +1,73 @@
+.cleaning {
+    background-color: #f6f7fb;
+    max-height: fit-content;
+    &__container {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(8, auto);
+    }
+    &__container:last-child {
+        margin-bottom: 5rem;
+    }
+    &__title {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        color: $color-blue;
+        margin-top: 30rem;
+        span {
+            display: block;
+            color: #f45e1f;
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+    }
+    &__info {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        color: $color-blue;
+        font-weight: 100;
+    }
+    &__point--first {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        color: $color-blue;
+        position: relative;
+        span {
+            color: orangered;
+        }
+    }
+    &__point--second {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        color: $color-blue;
+        margin-bottom: 5rem;
+        span {
+            color: orangered;
+        }
+    }
+    &__image--right {
+            grid-column: 2 / 3;
+            grid-row: 1 / 5;
+            color: $color-blue;
+    }
+    &__image--main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: -6rem;
+        margin-left: 0;
+        padding: 0;
+    }
+    &__image--center {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+    }
+    &__image--right {
+        margin: 8rem 0 0 5rem;
+    }
+}
